@@ -1,0 +1,32 @@
+.site-branding__name {
+    font-size: 2rem;
+    font-family: Impact;
+}
+
+
+.site-branding__name a{
+    color: orange;
+}
+
+#header {
+    background-color: #fff;
+}
+
+
+
+#block-ive-search {
+  color: orange;
+}
+
+.node--view-mode-teaser h2 a {
+    color: orange;
+}
+
+
+.sidebar h2{
+  color: orange;
+}
+
+.node.external:before{
+  /*content:url('../images/external-link.gif')*/
+}

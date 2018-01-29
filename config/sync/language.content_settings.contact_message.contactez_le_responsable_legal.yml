@@ -1,0 +1,11 @@
+uuid: 8bd20e56-ceb3-43ab-a1b2-41f2db206774
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.contactez_le_responsable_legal
+id: contact_message.contactez_le_responsable_legal
+target_entity_type_id: contact_message
+target_bundle: contactez_le_responsable_legal
+default_langcode: site_default
+language_alterable: false

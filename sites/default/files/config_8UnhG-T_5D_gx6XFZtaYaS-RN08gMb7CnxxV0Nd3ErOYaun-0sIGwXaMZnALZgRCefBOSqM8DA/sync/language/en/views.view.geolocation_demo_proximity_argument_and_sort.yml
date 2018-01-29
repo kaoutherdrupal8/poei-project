@@ -1,0 +1,30 @@
+label: 'Geolocation Demo - Proximity Argument & Sort'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      fields:
+        field_geolocation_demo_single_proximity:
+          label: 'Distance in specified units'
+          format_plural_string: !!binary MQNAY291bnQ=
+      title: 'Geolocation Demo - Proximity Argument & Sort'
+      header:
+        area:
+          content:
+            value: "Simply attach an URL argument after <strong>\"/\"</strong> in the format <strong>\"[Latitude],[Longitude][Operator][Distance][Unit]\"</strong> (defaults to km).<br>\n<br>\nTry for example: <a href=\"[site:url]/geolocation-demo/proximity_argument_and_sort/37.7749295,-122.41941550000001<=5000miles\">/37.7749295,-122.41941550000001<=5000miles</a><br>\n<br>"
+      arguments:
+        field_geolocation_demo_single_proximity:
+          exception:
+            title: All
+  page_1:
+    display_title: Page
+    display_options:
+      menu:
+        title: 'Proximity Argument & Sort'

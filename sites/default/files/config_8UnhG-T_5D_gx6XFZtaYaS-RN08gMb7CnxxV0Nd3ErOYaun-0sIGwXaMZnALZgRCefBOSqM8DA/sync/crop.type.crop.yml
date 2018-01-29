@@ -1,0 +1,12 @@
+uuid: 47ee286c-2f01-4906-98ac-f8892c8619a7
+langcode: fr
+status: true
+dependencies: {  }
+label: carre-200x200
+id: crop
+description: 'elargir l''image'
+aspect_ratio: '1:1'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: 200
+hard_limit_height: 200

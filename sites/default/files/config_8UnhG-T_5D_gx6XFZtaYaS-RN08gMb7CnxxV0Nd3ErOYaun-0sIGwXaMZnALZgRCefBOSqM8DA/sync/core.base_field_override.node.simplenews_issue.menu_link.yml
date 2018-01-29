@@ -1,0 +1,20 @@
+uuid: 5f5245ed-6ee5-4838-826d-aebd3215485b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.simplenews_issue
+id: node.simplenews_issue.menu_link
+field_name: menu_link
+entity_type: node
+bundle: simplenews_issue
+label: 'Lien du menu'
+description: 'Lien de menu calculé pour le nœud (disponible uniquement pendant l''enregistrement du nœud).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: ce18efb9-41b7-4380-bbfd-ce6fd55f3735
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.visite_guidee
+  module:
+    - text
+id: paragraph.visite_guidee.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: visite_guidee
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

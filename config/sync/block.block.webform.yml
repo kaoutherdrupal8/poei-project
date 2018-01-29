@@ -1,0 +1,30 @@
+uuid: 809a6e61-dea4-4fb8-9f67-a10a0284264e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - webform
+  theme:
+    - bartik
+id: webform
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: visible
+  webform_id: reservation_de_table
+  default_data: ''
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      restaurants: restaurants
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

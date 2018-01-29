@@ -1,0 +1,21 @@
+uuid: 568afd91-e032-41a8-a01f-828d796ddb7b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_adresse
+    - node.type.hotel
+  module:
+    - geolocation
+id: node.hotel.field_adresse
+field_name: field_adresse
+entity_type: node
+bundle: hotel
+label: Adresse
+description: 'Veuillez saisir l''adresse de votre Hôtel'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

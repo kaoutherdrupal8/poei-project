@@ -1,0 +1,13 @@
+uuid: dad13bcf-e888-4f16-81f1-148f657aee26
+langcode: fr
+status: true
+dependencies: {  }
+name: page_d_acceuil
+label: 'Page d''acceuil'
+group: null
+description: ''
+requireAllConditions: false
+disabled: false
+conditions: {  }
+reactions: {  }
+weight: 0

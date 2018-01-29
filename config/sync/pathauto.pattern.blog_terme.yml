@@ -1,0 +1,34 @@
+uuid: 874d1e84-2a07-438a-a23c-e138ae1509fd
+langcode: fr
+status: true
+dependencies:
+  module:
+    - ctools
+    - language
+    - taxonomy
+id: blog_terme
+label: 'Blog terme'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/blog/[term:name]'
+selection_criteria:
+  a219bf70-e18d-4276-9720-f9d1b10f48b6:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      tags: tags
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: a219bf70-e18d-4276-9720-f9d1b10f48b6
+  1e0f7f87-29ca-436f-9372-c3eb6ca6277e:
+    id: language
+    langcodes:
+      fr: fr
+    negate: false
+    context_mapping:
+      language: 'taxonomy_term:langcode:language'
+    uuid: 1e0f7f87-29ca-436f-9372-c3eb6ca6277e
+selection_logic: and
+weight: -10
+relationships:
+  'taxonomy_term:langcode:language':
+    label: Langue

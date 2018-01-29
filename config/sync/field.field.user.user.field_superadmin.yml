@@ -1,0 +1,21 @@
+uuid: e79acef6-4d9e-4cc7-a836-978d3d03af5e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_superadmin
+  module:
+    - text
+    - user
+id: user.user.field_superadmin
+field_name: field_superadmin
+entity_type: user
+bundle: user
+label: Biographie
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

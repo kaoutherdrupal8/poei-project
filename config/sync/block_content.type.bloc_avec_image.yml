@@ -1,0 +1,8 @@
+uuid: 3e79d23d-0b20-4f3e-a049-4723ab79b4bc
+langcode: fr
+status: true
+dependencies: {  }
+id: bloc_avec_image
+label: 'Bloc avec image'
+revision: 0
+description: 'Un bloc avec une image'

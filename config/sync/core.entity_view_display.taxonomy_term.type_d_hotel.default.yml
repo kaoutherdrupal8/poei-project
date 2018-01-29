@@ -1,0 +1,27 @@
+uuid: 46f512de-dac3-4a86-a2dc-0058cce953a5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.type_d_hotel.field_picto_type_d_hotel
+    - image.style.150x150
+    - taxonomy.vocabulary.type_d_hotel
+  module:
+    - image
+id: taxonomy_term.type_d_hotel.default
+targetEntityType: taxonomy_term
+bundle: type_d_hotel
+mode: default
+content:
+  field_picto_type_d_hotel:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: 150x150
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  description: true
+  langcode: true

@@ -1,0 +1,16 @@
+uuid: e1332d55-c0d4-48bb-9213-a2ecf37b7bb2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.etoiles
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.etoiles
+target_entity_type_id: taxonomy_term
+target_bundle: etoiles
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,22 @@
+uuid: 1524ef2a-296e-4db6-95b7-9d725dc99b27
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.hotel
+id: node.hotel.status
+field_name: status
+entity_type: node
+bundle: hotel
+label: Publié
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

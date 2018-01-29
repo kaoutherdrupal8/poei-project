@@ -1,0 +1,23 @@
+label: 'Geolocation Demo - Fixed values boundary filter'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      fields:
+        title:
+          separator: ', '
+        field_geolocation_demo_single:
+          separator: ', '
+      title: 'Geolocation Demo Boundary Filter Fixed Values'
+  page_1:
+    display_title: Page
+    display_options:
+      menu:
+        title: 'Boundary filter fixed values'

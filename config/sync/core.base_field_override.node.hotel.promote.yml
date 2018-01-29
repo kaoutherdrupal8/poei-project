@@ -1,0 +1,22 @@
+uuid: 07dae0cc-403c-4281-96c1-77bdd67f1b57
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.hotel
+id: node.hotel.promote
+field_name: promote
+entity_type: node
+bundle: hotel
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

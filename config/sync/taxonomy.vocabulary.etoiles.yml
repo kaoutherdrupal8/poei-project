@@ -1,0 +1,9 @@
+uuid: 9916e413-78f0-475d-848a-61219efbb8ba
+langcode: fr
+status: true
+dependencies: {  }
+name: Etoiles
+vid: etoiles
+description: 'Le nombre des Etoiles'
+hierarchy: 0
+weight: 0

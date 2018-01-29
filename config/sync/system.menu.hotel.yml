@@ -1,0 +1,8 @@
+uuid: 666d081f-376d-484a-bfe9-a419114fd9dc
+langcode: fr
+status: true
+dependencies: {  }
+id: hotel
+label: Hôtel
+description: ''
+locked: false

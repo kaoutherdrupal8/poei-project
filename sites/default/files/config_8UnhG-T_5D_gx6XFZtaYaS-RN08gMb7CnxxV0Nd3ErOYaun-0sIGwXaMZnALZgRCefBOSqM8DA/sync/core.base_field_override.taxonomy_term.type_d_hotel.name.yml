@@ -1,0 +1,18 @@
+uuid: 228f6301-5839-43d8-b47b-1029ea7de7cc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_d_hotel
+id: taxonomy_term.type_d_hotel.name
+field_name: name
+entity_type: taxonomy_term
+bundle: type_d_hotel
+label: Nom
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

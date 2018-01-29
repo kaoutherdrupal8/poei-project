@@ -1,0 +1,28 @@
+# French translation of Block Widget (8.x-1.0-alpha1)
+# Copyright (c) 2017 by the French translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Block Widget (8.x-1.0-alpha1)\n"
+"POT-Creation-Date: 2017-12-14 13:45+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+
+msgid "- None -"
+msgstr "- Aucun(e) -"
+msgid "Layout"
+msgstr "Affichage"
+msgid "Block"
+msgstr "Bloc"
+msgid "Widget"
+msgstr "Widget"
+msgid "CSS classes"
+msgstr "Classes CSS"
+msgid "CSS Classes"
+msgstr "Classes CSS"
+msgid "Blocks"
+msgstr "Blocs"

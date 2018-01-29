@@ -1,0 +1,29 @@
+uuid: be2050ce-9887-455d-a535-88ea9b99d041
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.contactez_le_responsable_legal
+    - field.field.contact_message.contactez_le_responsable_legal.field_url
+id: contact_message.contactez_le_responsable_legal.default
+targetEntityType: contact_message
+bundle: contactez_le_responsable_legal
+mode: default
+content:
+  field_url:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  message:
+    type: basic_string
+    weight: 1
+    label: above
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,32 @@
+uuid: be190836-3199-431f-974f-1b84ffdd2a28
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: par_defaut
+label: 'par défaut'
+description: kaouther
+attributes:
+  title:
+    id: title
+    weight: 0
+    settings:
+      automatic_title: false
+  target:
+    id: target
+    weight: 0
+    settings:
+      widget_type: select_list
+matchers:
+  a6819a45-8dc4-43e4-b148-8496eeb8052f:
+    uuid: a6819a45-8dc4-43e4-b148-8496eeb8052f
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles:
+        article: article
+        page: page
+      group_by_bundle: false
+      include_unpublished: false

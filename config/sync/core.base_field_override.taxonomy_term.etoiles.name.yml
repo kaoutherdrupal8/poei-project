@@ -1,0 +1,18 @@
+uuid: 09494897-67c5-4834-bc23-6aa6a90488a8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.etoiles
+id: taxonomy_term.etoiles.name
+field_name: name
+entity_type: taxonomy_term
+bundle: etoiles
+label: Nom
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

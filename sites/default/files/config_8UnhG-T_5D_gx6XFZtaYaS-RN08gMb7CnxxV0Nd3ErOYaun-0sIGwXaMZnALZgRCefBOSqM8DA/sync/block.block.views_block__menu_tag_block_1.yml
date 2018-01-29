@@ -1,0 +1,24 @@
+uuid: 8320f62a-ac8d-4838-8b74-19ac92f10da8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.menu_tag
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__menu_tag_block_1
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:menu_tag-block_1'
+settings:
+  id: 'views_block:menu_tag-block_1'
+  label: 'Menu Tag'
+  provider: views
+  label_display: visible
+  views_label: 'Menu Tag'
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,13 @@
+type: module
+name : 'Widget'
+description: 'Provides a widget block that contains multiple inner blocks with a layout (superblock)'
+# core: 8.x
+dependencies:
+  - ctools:ctools
+  - drupal:layout_discovery
+
+# Information added by Drupal.org packaging script on 2017-12-14
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'widget'
+datestamp: 1513257787

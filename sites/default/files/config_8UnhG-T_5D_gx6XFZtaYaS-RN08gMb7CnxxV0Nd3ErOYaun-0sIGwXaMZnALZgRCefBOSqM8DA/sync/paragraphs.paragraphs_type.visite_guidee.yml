@@ -1,0 +1,9 @@
+uuid: 0b7d2357-806c-4f9a-8598-17d33eb7c1d6
+langcode: fr
+status: true
+dependencies: {  }
+id: visite_guidee
+label: 'Visite Guidée'
+icon_uuid: null
+description: 'Ici, vous trouverez la visite virtuelle pour votre Hôtel'
+behavior_plugins: {  }

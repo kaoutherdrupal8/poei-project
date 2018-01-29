@@ -1,0 +1,33 @@
+uuid: 1375cd68-4da8-4627-b5f5-d0b367c2dba7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: alias_node_article
+label: 'Alias node Article'
+type: 'canonical_entities:node'
+pattern: '/blog/[node:title]'
+selection_criteria:
+  8c78d388-7c85-4b29-8543-01aef7ec1ac9:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 8c78d388-7c85-4b29-8543-01aef7ec1ac9
+  b05a868e-4caf-4f83-ac6b-ccef565fb0c8:
+    id: language
+    langcodes:
+      fr: fr
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: b05a868e-4caf-4f83-ac6b-ccef565fb0c8
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Langue

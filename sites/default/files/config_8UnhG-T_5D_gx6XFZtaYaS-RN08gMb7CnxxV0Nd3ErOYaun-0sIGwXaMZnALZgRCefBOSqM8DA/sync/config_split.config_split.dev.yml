@@ -1,0 +1,18 @@
+uuid: df718fa0-21a4-4e49-92b7-5f01a2786459
+langcode: fr
+status: true
+dependencies: {  }
+id: dev
+label: dev
+folder: ../config/dev
+module:
+  admin_toolbar: 0
+  devel: 0
+  devel_generate: 0
+theme: {  }
+blacklist:
+  - block.block.bartik_help
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

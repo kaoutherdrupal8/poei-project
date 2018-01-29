@@ -1,0 +1,20 @@
+uuid: 2d95b64b-8d6e-4a4f-9a8f-1b1e63ffcd50
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.restaurants
+id: node.restaurants.menu_link
+field_name: menu_link
+entity_type: node
+bundle: restaurants
+label: 'Lien du menu'
+description: 'Lien de menu calculé pour le nœud (disponible uniquement pendant l''enregistrement du nœud).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

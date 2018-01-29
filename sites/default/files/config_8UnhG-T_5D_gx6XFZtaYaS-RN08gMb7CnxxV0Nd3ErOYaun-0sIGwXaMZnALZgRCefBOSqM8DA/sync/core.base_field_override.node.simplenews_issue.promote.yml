@@ -1,0 +1,22 @@
+uuid: 07feb516-3d9c-446a-b028-ccf9748719ea
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.simplenews_issue
+id: node.simplenews_issue.promote
+field_name: promote
+entity_type: node
+bundle: simplenews_issue
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

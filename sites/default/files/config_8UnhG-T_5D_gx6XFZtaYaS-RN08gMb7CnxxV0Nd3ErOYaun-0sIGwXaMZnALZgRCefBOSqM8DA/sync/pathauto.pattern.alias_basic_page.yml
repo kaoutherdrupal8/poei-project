@@ -1,0 +1,33 @@
+uuid: dae5f281-ae2b-4b8f-a382-510b454dee02
+langcode: fr
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: alias_basic_page
+label: 'Alias Basic Page'
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  19a6cfa7-02bd-4ea2-b447-67f73f801da9:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 19a6cfa7-02bd-4ea2-b447-67f73f801da9
+  b218410e-a482-4123-b2a9-48e39af3063b:
+    id: language
+    langcodes:
+      fr: fr
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: b218410e-a482-4123-b2a9-48e39af3063b
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Langue

@@ -1,0 +1,31 @@
+uuid: 224b9610-1c29-4f5b-9d4a-88e0762ccc42
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_visite_virtuelle
+    - node.type.hotel
+    - paragraphs.paragraphs_type.visite_guidee
+  module:
+    - entity_reference_revisions
+id: node.hotel.field_visite_virtuelle
+field_name: field_visite_virtuelle
+entity_type: node
+bundle: hotel
+label: 'Visite Virtuelle'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      visite_guidee: visite_guidee
+    target_bundles_drag_drop:
+      visite_guidee:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

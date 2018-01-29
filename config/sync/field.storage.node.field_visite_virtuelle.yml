@@ -1,0 +1,21 @@
+uuid: 996a4132-a30c-4fc0-be76-5fa4de77ab4d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_visite_virtuelle
+field_name: field_visite_virtuelle
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

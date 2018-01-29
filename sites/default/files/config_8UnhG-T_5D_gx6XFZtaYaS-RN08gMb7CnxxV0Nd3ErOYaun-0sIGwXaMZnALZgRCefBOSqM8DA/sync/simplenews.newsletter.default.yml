@@ -1,0 +1,19 @@
+uuid: 73ce5c9e-2375-43cf-bb39-35a412f1fa02
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hj6zGNwndnW_J6lKfFcg-tY5e5YqWfgXyt0qioGtXL8
+name: 'Newsletter des articles'
+id: default
+description: 'Des nouvelles de nos articles'
+format: html
+priority: 0
+receipt: true
+from_name: 'Hôtels et restaurants'
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: kaouther.bouchogafa@gmail.com
+hyperlinks: false
+new_account: none
+opt_inout: double
+weight: 0

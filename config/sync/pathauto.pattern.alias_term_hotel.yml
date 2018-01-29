@@ -1,0 +1,35 @@
+uuid: 68cfb2ac-44db-4d2c-9dba-f79c129266b0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - ctools
+    - language
+    - taxonomy
+id: alias_term_hotel
+label: 'Alias term Hôtel'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/hotels/[term:name]'
+selection_criteria:
+  34ba561e-b5d3-4dc2-a4e1-fb1638ff68da:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      etoiles: etoiles
+      type_d_hotel: type_d_hotel
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 34ba561e-b5d3-4dc2-a4e1-fb1638ff68da
+  81490fc2-e528-4203-9aae-288ddbc0fccd:
+    id: language
+    langcodes:
+      fr: fr
+    negate: false
+    context_mapping:
+      language: 'taxonomy_term:langcode:language'
+    uuid: 81490fc2-e528-4203-9aae-288ddbc0fccd
+selection_logic: and
+weight: -10
+relationships:
+  'taxonomy_term:langcode:language':
+    label: Langue

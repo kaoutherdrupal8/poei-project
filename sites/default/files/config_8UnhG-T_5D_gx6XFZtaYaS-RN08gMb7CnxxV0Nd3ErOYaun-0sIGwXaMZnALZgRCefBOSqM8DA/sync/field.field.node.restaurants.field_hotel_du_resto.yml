@@ -1,0 +1,28 @@
+uuid: 1ffeccd0-3398-4ad0-98fa-4c407528dee1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hotel_du_resto
+    - node.type.hotel
+    - node.type.restaurants
+id: node.restaurants.field_hotel_du_resto
+field_name: field_hotel_du_resto
+entity_type: node
+bundle: restaurants
+label: 'Hôtel du resto'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      hotel: hotel
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

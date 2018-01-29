@@ -1,0 +1,17 @@
+uuid: 4d6094df-3aed-4c2d-8ccb-99733c668ccf
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Hôtel
+type: hotel
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

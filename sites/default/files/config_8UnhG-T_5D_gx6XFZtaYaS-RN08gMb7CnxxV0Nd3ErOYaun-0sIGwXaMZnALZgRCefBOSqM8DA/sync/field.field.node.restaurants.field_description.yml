@@ -1,0 +1,21 @@
+uuid: 228a75c4-6dee-4611-9794-e8bdaa67cd6a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.restaurants
+  module:
+    - text
+id: node.restaurants.field_description
+field_name: field_description
+entity_type: node
+bundle: restaurants
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

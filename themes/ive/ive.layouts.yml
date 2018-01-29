@@ -1,0 +1,14 @@
+four-squares:
+  label: 'One column'
+  category: 'Ive'
+  template: templates/layouts/four-squares
+  default_region: main
+  regions:
+    main:
+      label: Main content
+    main:
+      label: Main content
+    main:
+      label: Main content
+    main:
+      label: Main content

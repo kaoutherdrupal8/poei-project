@@ -1,0 +1,22 @@
+uuid: 328aeacd-590f-4249-a9fa-9cdd772a5b05
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.restaurants
+id: node.restaurants.promote
+field_name: promote
+entity_type: node
+bundle: restaurants
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

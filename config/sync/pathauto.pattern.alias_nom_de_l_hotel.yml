@@ -1,0 +1,33 @@
+uuid: 5188e716-b455-48b2-bd85-9e7a08c26e09
+langcode: fr
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: alias_nom_de_l_hotel
+label: 'Alias nom de l''hôtel'
+type: 'canonical_entities:node'
+pattern: '/hotels/[node:field_categorie_]/[node:title]'
+selection_criteria:
+  ada25260-2fff-4a65-b8d5-2ad282656ec6:
+    id: node_type
+    bundles:
+      hotel: hotel
+    negate: false
+    context_mapping:
+      node: node
+    uuid: ada25260-2fff-4a65-b8d5-2ad282656ec6
+  100451e4-ea15-4ff7-b08e-fe0009f8e9de:
+    id: language
+    langcodes:
+      fr: fr
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: 100451e4-ea15-4ff7-b08e-fe0009f8e9de
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Langue

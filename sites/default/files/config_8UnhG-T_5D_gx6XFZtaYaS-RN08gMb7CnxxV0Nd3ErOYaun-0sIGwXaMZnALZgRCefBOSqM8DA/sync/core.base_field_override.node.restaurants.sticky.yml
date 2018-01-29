@@ -1,0 +1,22 @@
+uuid: 82084702-0ba7-4e38-b969-d2e48dd374c9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.restaurants
+id: node.restaurants.sticky
+field_name: sticky
+entity_type: node
+bundle: restaurants
+label: 'Epinglé en haut des listes'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

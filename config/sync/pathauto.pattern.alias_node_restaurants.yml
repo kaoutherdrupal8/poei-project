@@ -1,0 +1,33 @@
+uuid: b24c21c8-b6f3-4ead-ada1-4530f030f70a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: alias_node_restaurants
+label: 'Alias node restaurants'
+type: 'canonical_entities:node'
+pattern: '/hotels/restaurants/[node:title]'
+selection_criteria:
+  d8e6f507-43df-452e-ab73-8d9b6b1a9543:
+    id: node_type
+    bundles:
+      restaurants: restaurants
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d8e6f507-43df-452e-ab73-8d9b6b1a9543
+  9402ec17-a81c-45ef-a7a8-aab018e68ff5:
+    id: language
+    langcodes:
+      fr: fr
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: 9402ec17-a81c-45ef-a7a8-aab018e68ff5
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Langue

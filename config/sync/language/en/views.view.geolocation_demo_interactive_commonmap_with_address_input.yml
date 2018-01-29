@@ -1,0 +1,53 @@
+label: 'Geolocation Demo - Interactive CommonMap with address input'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Items per page'
+            items_per_page_options_all_label: '- All -'
+            offset_label: Offset
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+            first: '« First'
+            last: 'Last »'
+      fields:
+        title:
+          separator: ', '
+        body:
+          separator: ', '
+        field_geolocation_demo_single:
+          label: Location
+          separator: ', '
+        field_geolocation_demo_taxonomy:
+          label: 'Taxonomy Terms'
+          separator: ', '
+      filters:
+        type_1:
+          expose:
+            label: 'Content type'
+        field_geolocation_demo_single_boundary:
+          expose:
+            label: 'Boundary (field_geolocation_demo_single)'
+      title: 'Geolocation Demo - Dynamic CommonMap with Boundary filter'
+      header:
+        area:
+          content:
+            value: "Interact with the map by dragging or zooming and see the result markers on the map as well the list of results below update accordingly.\nAlternatively, you can type in an address and see the map move to the location and update itself."
+  attachment_1:
+    display_title: Map
+  common_map_ajax_page:
+    display_title: 'Page with article list'
+    display_options:
+      menu:
+        title: 'Interactive CommonMap with address input'

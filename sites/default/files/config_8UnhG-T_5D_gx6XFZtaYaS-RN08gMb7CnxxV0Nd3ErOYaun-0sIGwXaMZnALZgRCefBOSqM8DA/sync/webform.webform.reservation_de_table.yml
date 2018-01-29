@@ -1,0 +1,117 @@
+uuid: bb6d9635-929e-47be-8962-7cf8f506d5e7
+langcode: fr
+status: open
+dependencies: {  }
+open: null
+close: null
+uid: 1
+template: false
+id: reservation_de_table
+title: 'Réservation de  Table'
+description: "Bonjour cher client,<br />\nVeuillez saisir votre formulaire pour r&eacute;servez votre table"
+category: ''
+elements: "informations_personnelles:\n  '#type': webform_wizard_page\n  '#title': 'Informations Personnelles'\n  '#prev_button_label': '<page Précedante'\n  '#next_button_label': 'Page Suivante>'\n  nom:\n    '#type': textfield\n    '#title': Nom\n    '#required': true\n    '#required_error': 'Saisir votre Nom'\n  prenom:\n    '#type': textfield\n    '#title': Prénom\n    '#required': true\n    '#required_error': 'Saisir votre Prénom'\n  telephone:\n    '#type': textfield\n    '#title': Téléphone\n    '#required': true\n    '#required_error': 'Veuillez saisir votre numéro de Téléphone'\n  email:\n    '#type': textfield\n    '#title': Email\n    '#required': true\n    '#required_error': 'Veuillez saisir votre Email'\nchoix_du_restaurant:\n  '#type': webform_wizard_page\n  '#title': 'Choix du Réstaurant'\n  '#prev_button_label': '<page Précedante'\n  '#next_button_label': 'Page Suivante>'\n  restaurant:\n    '#type': webform_entity_select\n    '#title': Restaurant\n    '#required': true\n    '#required_error': 'Veuillez choisir le restaurant de votre choix'\n    '#target_type': node\n    '#selection_handler': 'default:node'\n    '#selection_settings':\n      target_bundles:\n        restaurants: restaurants\n      sort:\n        field: title\n        direction: ASC\n  nombre_de_personnes:\n    '#type': textfield\n    '#title': 'Nombre de personnes'\n    '#required': true\n    '#required_error': 'Veuillez indiquez le nombre de Personnes'\n  date:\n    '#type': datetime\n    '#title': Date\n    '#required': true\n    '#required_error': 'Saisir la date'\n    '#date_date_element': datepicker\n  commentaires:\n    '#type': textarea\n    '#title': Commentaires\n    '#required': true\n    '#required_error': 'Saisir votre commentaire'\n"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_unsaved: false
+  form_disable_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  submission_label: ''
+  submission_log: false
+  submission_user_columns: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_start_label: ''
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_title: ''
+  confirmation_message: ''
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  limit_total: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_message: ''
+  purge: none
+  purge_days: null
+  entity_limit_total: null
+  entity_limit_user: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers: {  }

@@ -1,0 +1,14 @@
+uuid: c1b5762c-dbf4-4cfe-977f-bd337d0a2b78
+name: 'Hôtels et restaurants (modif)'
+mail: kaouther.bouchogafa@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

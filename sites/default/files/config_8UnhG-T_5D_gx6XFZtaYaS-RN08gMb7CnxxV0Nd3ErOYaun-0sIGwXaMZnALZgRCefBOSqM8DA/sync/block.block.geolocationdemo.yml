@@ -1,0 +1,29 @@
+uuid: 6883cd2c-3d03-4662-959d-c93f5d0d3a22
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.geolocation-demo
+  enforced:
+    module:
+      - geolocation_demo
+  module:
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: F-7kCmJ82VSkuvhBmciDYiV3ArjbQKFXKZbYDXZa7aY
+id: geolocationdemo
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:geolocation-demo'
+settings:
+  id: 'system_menu_block:geolocation-demo'
+  label: 'Geolocation Demo'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

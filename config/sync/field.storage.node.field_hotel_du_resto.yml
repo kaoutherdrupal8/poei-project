@@ -1,0 +1,19 @@
+uuid: e97ef139-98e1-4744-9a9e-eb1430dec752
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_hotel_du_resto
+field_name: field_hotel_du_resto
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

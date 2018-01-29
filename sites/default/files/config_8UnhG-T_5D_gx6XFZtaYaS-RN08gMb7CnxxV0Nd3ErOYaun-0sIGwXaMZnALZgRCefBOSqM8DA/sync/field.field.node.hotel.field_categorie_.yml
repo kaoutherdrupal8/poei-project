@@ -1,0 +1,29 @@
+uuid: e9c369cc-b20f-443a-a723-e4a025056d97
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categorie_
+    - node.type.hotel
+    - taxonomy.vocabulary.etoiles
+id: node.hotel.field_categorie_
+field_name: field_categorie_
+entity_type: node
+bundle: hotel
+label: 'Catégorie(*)'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      etoiles: etoiles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

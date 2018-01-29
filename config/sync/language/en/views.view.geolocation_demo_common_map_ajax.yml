@@ -1,0 +1,47 @@
+label: 'Geolocation Demo - CommonMap with exposed filter and Ajax enabled'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Items per page'
+            items_per_page_options_all_label: '- All -'
+            offset_label: Offset
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+            first: '« First'
+            last: 'Last »'
+      fields:
+        title:
+          separator: ', '
+        body:
+          separator: ', '
+        field_geolocation_demo_single:
+          label: Location
+          separator: ', '
+        field_geolocation_demo_taxonomy:
+          label: 'Taxonomy Terms'
+          separator: ', '
+      filters:
+        type_1:
+          expose:
+            label: 'Content type'
+        field_geolocation_demo_taxonomy_target_id:
+          expose:
+            label: 'Geolocation Demo Taxonomy (field_geolocation_demo_taxonomy)'
+      title: 'Geolocation Demo - CommonMap with exposed filter and Ajax enabled'
+  common_map_ajax_page:
+    display_title: Page
+    display_options:
+      menu:
+        title: 'CommonMap with exposed filter and AJAX'

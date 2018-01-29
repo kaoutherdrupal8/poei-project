@@ -1,0 +1,18 @@
+uuid: 1d9f031c-123f-4cfb-982c-9fa7f21bdce9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.hotel
+id: node.hotel.changed
+field_name: changed
+entity_type: node
+bundle: hotel
+label: Modifié
+description: 'Le moment auquel le nœud a été modifié pour la dernière fois.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
